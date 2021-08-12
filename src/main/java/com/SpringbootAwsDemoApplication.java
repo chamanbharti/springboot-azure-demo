@@ -15,6 +15,6 @@ public class SpringbootAwsDemoApplication {
 
 	@GetMapping("/hello")
 	public String sayHello() {
-		return "Welcome to dockerization world!\nYour app deployed successfully in Azure Platform";
+		return "Welcome to dockerization world!\nYour app deployed successfully in Azure Platform!!";
 	}
 }
